@@ -1,0 +1,11 @@
+prefix=/Users/anshika/Downloads/Iris-Flower-Prediction-Machine-Learning-Web-App-main/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/anshika/Downloads/Iris-Flower-Prediction-Machine-Learning-Web-App-main/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
